@@ -1,0 +1,124 @@
+.main{
+    background-image: url('./food.jpg');
+    background-repeat: no-repeat;
+    background-size: 1720px 795px;
+    height: 100vh;
+    width: 100%;
+    /* margin: 5px;  */
+  }
+  .container{
+    background: 5px solid red;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .akform{
+    width: 380px;
+    height: 520px;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgb(154, 151, 151);
+    background: transparent;
+    /* border: 2px solid yellow; */
+    margin-top: 150px;
+    
+  }
+  
+  form >h1{
+    color: aliceblue;
+    width: fit-content;
+    border-bottom: 5px solid red;
+  }
+  label{
+    color: rgb(218, 251, 4);
+    font-size: x-large;
+  }
+  .text{
+    height: 50px;
+    width: 340px;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid bisque;
+    box-shadow: 2px 2px rgb(253, 135, 135);
+  }
+  .btn{
+    font-size: x-large;
+  }
+  p {
+    color: red;
+  }
+  /* -------------------------------------home --------------------------*/
+.home-con{
+  /* border: 5px solid rgb(25, 0, 255); */
+  display: flex;
+  flex-direction: row;
+}
+.home-con1{
+  /* border: 5px solid rgb(255, 55, 0); */
+  width: 20%;
+}
+.home-con2{
+  /* border: 5px solid rgb(255, 0, 149); */
+  width: 80%;
+}
+.rows{
+  /* border: 8px solid brown; */
+  width: 98%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.cards{
+  border: 5px solid red;
+  margin: 15px;
+  width: 288px;
+  height: 400px;
+  align-items: center;
+  /* margin-left: 10px; */
+  /* padding: 10px; */
+  border-radius: 25px;
+  box-shadow: 5px 8px rgb(119, 118, 118);
+}
+.cards:hover{
+  transform: scale(0.8,0.8);
+}
+.cards-img{
+  /* border: 5px solid rgb(0, 255, 38); */
+  width: 278px;
+  border-top-right-radius:25px ;
+  border-top-left-radius:25px ;
+  margin-left: 0px;
+  margin-top: -1px;
+}
+.cards-body{
+  /* border: 5px solid rgb(25, 0, 255); */
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: calc(var(--curve) * 1px);
+  background-color: var(--surface-color);
+  transform: translateY(100%);
+  transition: 0.2s ease-in-out;
+  visibility: hidden; */
+ 
+}
+/* .cards:hover .cards-body {
+  transform: translateY(0);
+  visibility: none;
+} */
+
+.cards-name{
+
+  color: black;
+}
+
+.link{
+  /* border: 5px solid rgb(229, 255, 0); */
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
